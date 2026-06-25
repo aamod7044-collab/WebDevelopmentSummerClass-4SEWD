@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Oswald;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+  border-bottom: 2px solid blue;
+  padding-bottom: 10px;
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+h3 {
+  color: blue;
+}
+
+ul {
+  background-color: white;
+  padding: 20px;
+}
+
+ol {
+  background-color: white;
+  padding: 20px;
+}
+
+li {
+  margin: 10px;
+}
+
+li:hover {
+  color: blue;
+}
+
+b {
+  color: darkblue;
+}
+button {
+  font-family: Oswald;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+.full {
+  border: 2px solid;
+  display: inline-block;
+  padding: 50px;
+  font-size: larger;
+}

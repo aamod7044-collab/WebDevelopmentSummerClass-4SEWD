@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: #24282c;
+  --main-background-color: #ec5454;
+  --secodary-background-color: #f9f1e5;
+  --secondary-font-color: #e54634;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+  align-content: center;
+  flex-direction: row-reverse;
+}
+.box {
+  width: 250px;
+  height: 300px;
+  border: 1px solid var(--font-color);
+  background-color: var(--secodary-background-color);
+  color: var(--font-color);
+}
